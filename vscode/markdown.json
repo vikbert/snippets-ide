@@ -1,0 +1,214 @@
+{
+  "toc": {
+    "prefix": "toc",
+    "body": [
+      "<h3>table of content</h3>",
+      "",
+      "[[toc]]"
+    ],
+    "description": "toc"
+  },
+	"todo": {
+		"prefix": "todo",
+		"body": [
+			"⭕️ $1"
+		]
+	},
+	"tip": {
+		"prefix": "tip",
+		"body": [
+			"::: tip$1\n$2:::"
+		]
+	},
+	"warning": {
+		"prefix": "warning",
+		"body": [
+			"::: warning$1\n$2:::"
+		]
+	},
+	"danger": {
+		"prefix": "danger",
+		"body": [
+			"::: danger$1\n$2:::"
+		]
+	},
+	"js": {
+		"prefix": "js",
+		"body": [
+			"```js\n $1 \n```\n"
+		]
+	},
+	"php": {
+		"prefix": "php",
+		"body": [
+			"```php\n $1 \n```\n"
+		]
+	},
+	"bash": {
+		"prefix": "bash",
+		"body": [
+			"```bash\n $1 \n```\n"
+		]
+	},
+	"image": {
+		"prefix": "img",
+		"body": [
+			"![]($1)"
+		]
+	},
+	"header": {
+		"prefix": "header",
+		"body": [
+			"\n<img class=\"page__header\" src=\"$1\" width=\"100%\"/>\n"
+		]
+	},
+	"github": {
+		"prefix": "github",
+		"body": [
+			"🔥[**GitHub**] $1 <br>\n <$2>\n\n"
+		]
+	},
+	"book": {
+		"prefix": "book",
+		"body": [
+			"| [$1]($2) | $3 |"
+		]
+	},
+	"article": {
+		"prefix": "article",
+		"body": [
+			"🔥[**Article**] $1 <br>\n <$2>\n\n"
+		]
+	},
+	"web": {
+		"prefix": "web",
+		"body": [
+			"🔥[**Web**] $1 <br>\n <$2>\n\n"
+		]
+	},
+	"idea": {
+		"prefix": "idea",
+		"body": [
+			"🔥[**Idea**] $1 <br>\n <$2>\n\n"
+		]
+	},
+	"video": {
+		"prefix": "video",
+		"body": [
+			"🔥[**Video**] $1 <br>\n <$2>\n\n"
+		]
+	},
+	"table": {
+    "prefix": "table",
+    "body": [
+      "| title1 | title2 |",
+      "|--------|--------|",
+      "|        |        |"
+    ],
+    "description": "table"
+  },
+	"Start a New Day": {
+		"prefix": "mdday",
+		"body": [
+			"## Date: 2017-$1",
+			"### Tasks & Activities",
+			"- Daily Planning (:30)",
+			"- $2"
+		],
+		"description": "Create template for new day's activities"
+  },
+  "logo": {
+    "prefix": "logo",
+    "body": [
+      "<div align=\"center\">",
+      "  <img src=\"$1\" width=\"80\"/>",
+      "</div>"
+    ],
+    "description": "logo"
+  },
+  "yellow": {
+    "prefix": "yellow",
+    "body": [
+      "<h5 class=\"yellow\">",
+      "  ✪ $1",
+      "</h5>"
+    ],
+    "description": "logo"
+  },
+  "wd": {
+    "prefix": "wd",
+    "body": [
+      "width=\"100\"",
+    ],
+    "description": "width 100"
+  },
+  "licence": {
+    "prefix": "licence",
+    "body": [
+      "## licence",
+      "",
+      "MIT [@vikbert](https://vikbert.github.io/)",
+      ""
+    ],
+    "description": "licence"
+  },
+  "readme": {
+    "prefix": "readme",
+    "body": [
+      "<div align=\"center\">",
+      "  <img src=\"https://1.bp.blogspot.com/-dBoGxQMuDpA/YFb8qV9LM5I/AAAAAAAAARQ/ImtGfZRZQ9kweL0OJwnI0mtM_udBtZCqwCNcBGAsYHQ/w680/coding%2Bskils%2Bto%2Bget%2Bjob.jpeg\" width=\"480px\" alt=\"aino\" />",
+      "  <h3>A Reacttive Slider App</h3>",
+      "  <p>A React coding kata to slide the SPA page views with animation</p>",
+      "",
+      "  <p>",
+      "    <a href=\"#\">",
+      "      <img src=\"https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square\" alt=\"PRs Welcome\">",
+      "    </a>",
+      "    <a href=\"#\">",
+      "      <img src=\"https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square\" alt=\"MIT License\">",
+      "    </a>",
+      "  </p>",
+      "</div>",
+      "",
+      "---",
+      "",
+      "## Install",
+      "```bash",
+      "npm install ",
+      "```",
+      "",
+      "",
+      "## Development",
+      "```bash",
+      "npm run dev ",
+      "```",
+      "",
+      "## Build",
+      "```bash",
+      "npm run build ",
+      "```",
+      "",
+      "## licence",
+      "",
+      "[MIT](./LICENSE) License © 2021 [@vikbert](https://vikbert.github.io/)"
+    ],
+    "description": "readme"
+  },
+  "url": {
+    "prefix": "url",
+    "body": [
+      "[text]($1)"
+    ],
+    "description": "link"
+  },
+  "slide": {
+    "prefix": "slide",
+    "body": [
+      "",
+      "----",
+      "",
+      ""
+    ],
+    "description": "slide"
+  }
+}
